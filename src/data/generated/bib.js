@@ -1,17 +1,15 @@
-﻿const generatedBibEntries = {
-    "Beck2016Visual": {
-        "abstract": "Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.",
-        "author": "Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel",
-        "doi": "10.1109/TVCG.2015.2467757",
-        "journal": "IEEE Transactions on Visualization and Computer Graphics",
-        "keywords": "type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser",
-        "number": "01",
-        "publisher": "IEEE",
-        "series": "TVCG",
-        "title": "Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}",
-        "type": "article",
-        "url": "http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf",
-        "volume": "22",
-        "year": "2016"
-    }
+const generatedBibEntries = {
+ "Alian2024ISSTA": { "author": "Alian, P. and others", "title": "Semantic Constraint Inference for Web Form Test Generation", "journal": "ISSTA", "year": "2024", "keywords": "C2-Structural-Analysis", "abstract": "Inferred semantic constraints from HTML structures." },
+ "Alian2024arXiv": { "author": "Alian, P. and others", "title": "Feature-Driven End-To-End Test Generation", "journal": "arXiv", "year": "2024", "keywords": "C1-Empirical-Studies", "abstract": "Proposed a feature-driven E2E test generation approach." },
+ "Kanaththage2026": { "author": "Kanaththage, K. and others", "title": "Neural Embeddings for Web Testing", "journal": "ICST", "year": "2026", "keywords": "C2-Structural-Analysis", "abstract": "Utilized neural DOM embeddings for test transfer." },
+ "Karagoz2026": { "author": "Karagoz, B. and others", "title": "Automated Page Object Generation using LLMs", "journal": "arXiv", "year": "2026", "keywords": "C2-Structural-Analysis", "abstract": "Evaluated GPT-4o for Page Object generation." },
+ "Kolthoff2025": { "author": "Kolthoff, K. and others", "title": "GUISpector: An MLLM Agent Framework", "journal": "arXiv", "year": "2025", "keywords": "C3-GUI-Testing", "abstract": "Uses MLLMs to verify GUI requirements." },
+ "Le2025": { "author": "Le, N. K. and others", "title": "Finetuning LLMs for Selenium Testing", "journal": "arXiv", "year": "2025", "keywords": "C1-Empirical-Studies", "abstract": "Fine-tuned smaller LLMs for Selenium." },
+ "Li2026Empirical": { "author": "Li, T. and others", "title": "LLMs for Web-Form-Test Generation: An Empirical Study", "journal": "TOSEM", "year": "2026", "keywords": "C1-Empirical-Studies", "abstract": "Benchmarked 11 LLMs on 146 forms." },
+ "Li2026Roadmap": { "author": "Li, T. and others", "title": "Enhanced Web Testing with LLMs: A Research Roadmap", "journal": "TOSEM", "year": "2026", "keywords": "C4-Reviews-Roadmaps", "abstract": "Identified structural complexity as a challenge." },
+ "Mallipeddi2025": { "author": "Mallipeddi, S. and others", "title": "AutoQALLMs: Automating Web Testing Using LLMs", "journal": "Computers", "year": "2025", "keywords": "C1-Empirical-Studies", "abstract": "Integrated GPT-4 with Selenium." },
+ "Monteiro2025": { "author": "Monteiro, C. and others", "title": "End-to-End Web Test Cases via Generic AI Agent", "journal": "WebMedia", "year": "2025", "keywords": "C3-GUI-Testing", "abstract": "Compared DeepSeek V3 and Claude." },
+ "NTUT2025": { "author": "NTUT-Research-Team", "title": "Using LLM to Fill in Web Forms", "journal": "Information", "year": "2025", "keywords": "C1-Empirical-Studies", "abstract": "Combined GPT-4o with Data Faker." },
+ "Trong2026": { "author": "Trong, M. P. and others", "title": "A process-centric review of LLMs in GUI testing", "journal": "PeerJ", "year": "2026", "keywords": "C4-Reviews-Roadmaps", "abstract": "Systematic review of 55 papers." },
+ "Wang2024": { "author": "Wang, S. and others", "title": "Leveraging Vision-Language Model For Web GUI Testing", "journal": "arXiv", "year": "2024", "keywords": "C3-GUI-Testing", "abstract": "Developed VETL approach." }
 };
