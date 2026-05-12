@@ -1,33 +1,27 @@
 /**
  * Name as used as title for the main page
- * @type {string}
  */
-var title = 'SurVis Literature Collection';
+var title = 'Automated Web Testing Literature Collection';
 
 /**
- * Relative path to the data directory
- * @type {string}
+ * 路径配置（必须加上 src/ 前缀）
  */
-var dataDir = 'data/';
+var dataDir = 'src/data/generated/';
+var jsDir = 'src/js/';
+var stylesDir = 'src/styles/';
 
 /**
- * Relative path to the js directory
- * @type {string}
+ * 这里的 clusters 就是你想要的分类功能！
  */
-var jsDir = 'js/';
+var clusters = [
+    ["C1-Empirical-Studies"],
+    ["C2-Structural-Analysis"],
+    ["C3-GUI-Testing"],
+    ["C4-Reviews-Roadmaps"]
+];
 
 /**
- * Relative path to the styles directory
- * @type {string}
- */
-var stylesDir = 'styles/';
-
-/**
- * Options for displaying tag clouds.
- * field: BibTeX field used for generating the tag clouds,
- * title: Title displayed as headline
- * minTagFrequency: minimum frequency of a tag to be displayed
- * @type {{field: string, title: string, minTagFrequency: number}[]}
+ * 标签云设置
  */
 var tagCloudOptions = [{
     field: 'keywords',
@@ -37,48 +31,21 @@ var tagCloudOptions = [{
     field: 'author',
     title: 'Authors',
     minTagFrequency: 1
-}, {
-    field: 'series',
-    title: 'Series',
-    minTagFrequency: 1
 }];
 
 /**
- * If BibTeX entries (and tags) should be editable
- * @type {boolean}
+ * 其他设置保持默认
  */
 var editable = true;
 
-/**
- * Subtitle describing the paper the data is referring to (set to null to deactivate)
- * @type {{html: string, id: string}}
- */
 var paper = {
-    html: 'Sample literature collection for <b><a href="http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/eurovis14-star.pdf" target="_blank">SurVis</a></b>',
-    id: 'Beck2016Visual'
+    html: 'Literature collection for <b>Web Testing with LLMs</b>',
+    id: 'WineQuka2026'
 };
 
-/**
- * Extra pages like an about page that will be listed in the footer an can be opened on demand (page name -> path)
- */
 var extraPages = {
     'about': 'about.html'
 };
 
-/**
- * Custom style as path to an extra css file (leave empty if not applicable)
- * @type {string}
- */
 var customStyle = '';
-/* Example for simplified entries */
-//var customStyle = 'styles/custom_entries_simplified.css';
-
-/**
- * Options for showing citation information (set to null to avoid showing any citation information)
- * minCitationCount: minimum number of citations of a paper to be displayed in the visualization
- * @type {{minCitationCount: number}}
- */
-/* var citations = {
-    minCitationCount: 5
-}; */
 var citations = null;
